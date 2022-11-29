@@ -1,0 +1,17 @@
+* {margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+.copa {
+    display: flex;
+    flex-direction: row;
+}
+.primeirolado, .segundolado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
