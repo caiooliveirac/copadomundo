@@ -1,0 +1,46 @@
+* {margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 4px;
+    color: rgb(233, 214, 214);
+    
+    
+}
+
+body, .copa {
+    background-color: rgb(128, 6, 6,0.9);
+    background-image: url("/public/img.jpg");
+    background-size: 1450px;
+    background-blend-mode:saturation;
+    
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 10px 39px 15px rgba(0,0,0,0.8);
+}
+
+.copa {
+    display: flex;
+    flex-direction: row;
+
+}
+.primeirolado, .segundolado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+table {
+    background-color: rgba(0,0,0,0.8);
+    margin: 0 0 40px 0;
+    width: 100%;
+    box-shadow: 8px 10px 99px 1px rgba(0,0,0,0.6);
+    display: table;
+}
+
+tr, th, td{
+    
+    color: rgb(128, 6, 6);
+    
+}

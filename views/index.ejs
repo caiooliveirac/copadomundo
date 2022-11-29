@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="/public/styles.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +10,13 @@
 </head>
 <body>
     <h1>Copa do Mundo 2022</h1>
+    <img src="/public/vecteezy_mondial-fifa-world-cup-qatar-2022-official-logo-champion_8785666.jpg" alt="" srcset="">
     <div class="copa">
     
     <div class="primeirolado">
     <div class="grupo">
         <h2>Grupo A</h2>
-        <table class="A" id="A"><thead><th>Seleções</th><th>Pontos Ganhos</th><th>Partidas Jogadas</th></thead></table>
+        <table class="A" id="A"><thead><th>Seleções</th><th>Pontos Ganhos</th><th>Partidas Jogadas</th></thead><tbody><td><%= selecao %></td></tbody></table>
     </div>
     <div class="grupo">
         <h2>Grupo B</h2>
@@ -47,5 +48,5 @@
         <table class="H"><thead><th>Seleções</th><th>Pontos Ganhos</th><th>Partidas Jogadas</th></thead></table>
     </div></div></div>
 </body>
-<script src="script.js"></script>
+<script src="/public/script.js"></script>
 </html>

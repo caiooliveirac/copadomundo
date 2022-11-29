@@ -4,8 +4,27 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.6.1",
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "emmet": "^2.3.6",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "node-js": "^1.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "prisma": "^4.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
 }
